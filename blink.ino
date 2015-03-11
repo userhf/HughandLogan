@@ -95,4 +95,65 @@ void loop() {
   digitalWrite(13, LOW);    
   delay(1000);
   delay(4000); //big space
+  digitalWrite(13, HIGH);   //short
+  delay(100);              
+  digitalWrite(13, LOW);    
+  delay(1000);
+  digitalWrite(13, HIGH);   //long
+  delay(1000);              
+  digitalWrite(13, LOW);    
+  delay(1000);
+  digitalWrite(13, HIGH);   //short
+  delay(100);              
+  digitalWrite(13, LOW);    
+  delay(1000);
+  digitalWrite(13, HIGH);   //short
+  delay(100);              
+  digitalWrite(13, LOW);    
+  delay(1000);
+  delay(2000); //space
+  digitalWrite(13, HIGH);   //long
+  delay(1000);              
+  digitalWrite(13, LOW);    
+  delay(1000);
+  digitalWrite(13, HIGH);   //long
+  delay(1000);              
+  digitalWrite(13, LOW);    
+  delay(1000);
+  digitalWrite(13, HIGH);   //long
+  delay(1000);              
+  digitalWrite(13, LOW);    
+  delay(1000);
+  delay(2000); //space
+  digitalWrite(13, HIGH);   //long
+  delay(1000);              
+  digitalWrite(13, LOW);    
+  delay(1000);
+  digitalWrite(13, HIGH);   //long
+  delay(1000);              
+  digitalWrite(13, LOW);    
+  delay(1000);
+  digitalWrite(13, HIGH);   //short
+  delay(100);              
+  digitalWrite(13, LOW);    
+  delay(1000);
+  delay(2000); //space
+  digitalWrite(13, HIGH);   //short
+  delay(100);              
+  digitalWrite(13, LOW);    
+  delay(1000);
+  digitalWrite(13, HIGH);   //long
+  delay(1000);              
+  digitalWrite(13, LOW);    
+  delay(1000);
+  delay(2000);  //space
+  digitalWrite(13, HIGH);   //long
+  delay(1000);              
+  digitalWrite(13, LOW);    
+  delay(1000);
+  digitalWrite(13, HIGH);   //short
+  delay(100);              
+  digitalWrite(13, LOW);    
+  delay(1000);
+  delay(4000);//end of message
 }
