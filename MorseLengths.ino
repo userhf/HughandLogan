@@ -174,14 +174,16 @@ void z(){
   srt();
   pse();
 }
+void toMorse(String text){
+  //convert text to morse using if ("a") {a()}, etc.
+}
 void setup() {
   pinMode(13, OUTPUT);
+  Serial.begin(9600);
 }
 void loop() {
 String letters = (String)Serial.read();
 for (int s = 0; s < letters.length(); s++){
-  Serial.println("Hello");
-  Serial.println(letters[s]);
-//to Morse((letters[s]));
+toMorse((letters));
 }
 }
