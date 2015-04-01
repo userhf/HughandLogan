@@ -178,15 +178,10 @@ void setup() {
   pinMode(13, OUTPUT);
 }
 void loop() {
-m();
-o();
-r();
-s();
-e();
-space();
-c();
-o();
-d();
-e();
-delay (5000);
+String letters = (String)Serial.read();
+for (int s = 0; s < letters.length(); s++){
+  Serial.println("Hello");
+  Serial.println(letters[s]);
+//to Morse((letters[s]));
+}
 }
